@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Outer subtle aura ring -->
+  <circle cx="50" cy="50" r="46" stroke="#69C7DF" stroke-width="2" stroke-dasharray="3 3" opacity="0.4" />
+  
+  <!-- Central Lotus Petals (Ayush & Care) -->
+  <!-- Center Petal / Stupa / Flame of Knowledge (Bodha) -->
+  <path d="M50 16 C47 28, 43 38, 50 56 C57 38, 53 28, 50 16 Z" fill="url(#brandGrad)" />
+  
+  <!-- Left Petal -->
+  <path d="M50 56 C38 48, 24 42, 22 30 C20 44, 34 56, 50 62" fill="#69C7DF" fill-opacity="0.85" />
+  
+  <!-- Right Petal -->
+  <path d="M50 56 C62 48, 76 42, 78 30 C80 44, 66 56, 50 62" fill="#55C8B5" fill-opacity="0.85" />
+  
+  <!-- Far Left Graceful Petal -->
+  <path d="M50 62 C34 58, 16 54, 14 44 C12 60, 32 70, 50 72" fill="#7867C8" fill-opacity="0.75" />
+  
+  <!-- Far Right Graceful Petal -->
+  <path d="M50 62 C66 58, 84 54, 86 44 C88 60, 68 70, 50 72" fill="#5BC58A" fill-opacity="0.75" />
+  
+  <!-- Clinical Cross / Intelligent Heart Pulse at Base -->
+  <path d="M50 72 C35 72, 28 78, 50 88 C72 78, 65 72, 50 72 Z" fill="#69C7DF" />
+  <circle cx="50" cy="54" r="3.5" fill="#FFFFFF" />
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="brandGrad" x1="50" y1="16" x2="50" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69C7DF" />
+      <stop offset="0.5" stop-color="#55C8B5" />
+      <stop offset="1" stop-color="#7867C8" />
+    </linearGradient>
+  </defs>
+</svg>
